@@ -1,0 +1,283 @@
+html {
+    height: 100%;
+      font-family: 'Magra', sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
+.nav {
+    background-color: #9FC87E;
+    width: 100%;
+    height: 159px;   /* podés bajarlo si querés */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;  /* para que no quede pegado */
+    box-sizing: border-box;
+}
+
+.logocontainer {
+    height: 78px;
+    width: 77px;
+    border-radius: 80px;
+}
+
+.brandname {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;           
+}
+
+.menu-compacto {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.menu-compacto a {
+  font-family: 'Racing Sans One', sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: #004d40;       
+  font-weight: bold;
+}
+
+.menu-compacto a:not(:last-child)::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 0;
+  font-family: Arial, sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  color: #004d40;
+}
+
+.contenedor-iconos {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    width: auto;
+    gap: 15px;
+  
+}
+
+.bolsa {
+    width: 54px;
+    height: 51px;
+    display: block;
+}
+
+.avatar {
+    width: 58px;
+    height: 58px;
+    display: block;
+}
+.imagenhome img {
+    width: 535px;
+    height: 412px;
+    object-fit: cover;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0;
+}
+
+.textorosa {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 64px;
+    color: #FFB3AE;
+    text-shadow:
+        -6px -6px #7B2020, -5px -6px #7B2020, -4px -6px #7B2020, -3px -6px #7B2020, -2px -6px #7B2020, -1px -6px #7B2020, 0px -6px #7B2020, 1px -6px #7B2020, 2px -6px #7B2020, 3px -6px #7B2020, 4px -6px #7B2020, 5px -6px #7B2020, 6px -6px #7B2020,
+        -6px -5px #7B2020, 6px -5px #7B2020,
+        -6px -4px #7B2020, 6px -4px #7B2020,
+        -6px -3px #7B2020, 6px -3px #7B2020,
+        -6px -2px #7B2020, 6px -2px #7B2020,
+        -6px -1px #7B2020, 6px -1px #7B2020,
+        -6px 0px #7B2020, 6px 0px #7B2020,
+        -6px 1px #7B2020, 6px 1px #7B2020,
+        -6px 2px #7B2020, 6px 2px #7B2020,
+        -6px 3px #7B2020, 6px 3px #7B2020,
+        -6px 4px #7B2020, 6px 4px #7B2020,
+        -6px 5px #7B2020, 6px 5px #7B2020,
+        -6px 6px #7B2020, -5px 6px #7B2020, -4px 6px #7B2020, -3px 6px #7B2020, -2px 6px #7B2020, -1px 6px #7B2020, 0px 6px #7B2020, 1px 6px #7B2020, 2px 6px #7B2020, 3px 6px #7B2020, 4px 6px #7B2020, 5px 6px #7B2020, 6px 6px #7B2020;
+}
+.bloquecompañero {
+    width: 640px;
+    text-align: center;
+}
+.textocompañero {
+    font-size: 32px;
+    width: 506px;
+    height: 157px;
+    text-align: center;
+    padding-left: 40px ;
+}
+
+.footer {
+    background-color: #004d40;
+    width: 100%;
+    height: 122px;
+}
+
+
+.imgfooter {
+    width: 225px;
+    height: 54px;
+    margin-left: 523px;
+    padding-top: 16px;
+    display: flex;      
+    gap: 10px;         
+    justify-content: center; 
+}
+
+.imagenes {
+    width: 54px;
+    height: 54px;
+    border-radius: 10px;
+    
+}
+.textofooter {
+    color: #ffffff;
+    justify-content: center;
+    margin-left: 580px;
+    padding-top: 3px;
+}
+ /* Servicios */
+
+.contserv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    padding-bottom: 100px; 
+}
+
+
+.item-serv {
+    text-align: center;
+}
+
+.img {
+    width: 275px;
+    height: 263px;
+    border-radius: 174px;
+    object-fit: cover;
+}
+
+.textorosa2 {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 32px;
+    color: #FFB3AE;                
+    -webkit-text-stroke: 1px #7B2020; 
+    -webkit-text-fill-color: #FFB3AE;
+}
+
+
+.productos-section {
+    width: 1103px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+
+.titulo-prod {
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.prtres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 50px; 
+}
+
+.cardprod {
+    display: flex;
+    flex-direction: column;
+    width: 323px; 
+    align-items: center;
+    text-align: center;
+}
+
+
+.imgpr {
+    width: 323px;
+    height: 232px;
+}
+
+.verdesocuro1 {
+    font-size: 32px;
+    color: #075B5E;
+}
+
+.verdesocuro2 {
+    font-size: 24px;
+    color: #075B5E;
+}
+
+.boton {
+    background-color: #FF3F33;
+    width: 130px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    color: #ffffff;
+}
+
+.txtblanco {
+    color: #fff;
+}
+.hilera2 {
+    padding-top: 30px;
+    padding-bottom: 30px;  
+}
+
+ /* Contactos */
+
+.tres-columnas {
+    display: flex;
+    justify-content: center;   /* centra horizontalmente el conjunto */
+    align-items: flex-start;   /* alinea arriba cada columna */
+    gap: 60px;                 /* separación entre las 3 secciones */
+    margin-top: 40px;
+}
+
+.columna {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-wrapper {
+  width: 289px;      /* igual que .mapa */
+  height: 281px;     /* igual que .mapa */
+  border-radius: 75px; 
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* recorta para que no se distorsione */
+}
